@@ -14,3 +14,12 @@ func solution(_ num: Int) -> [Int] {
     return String(num).reversed().map{ $0.hexDigitValue! }
 }
 ```
+
+## Int Array
+### String 출력하기
+```
+// [1, 2, 3] -> "1 2 3"
+func solution(_ nums: [Int]) -> String {
+    return nums.map { String($0) }.joined(separator: " ")
+}
+```
