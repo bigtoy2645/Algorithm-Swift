@@ -34,39 +34,30 @@ func tomatobox() {
     let nums = readLine()!.split(separator: " ").map { Int($0)! }
     let m = nums[0], n = nums[1]
     var box = [[Int]]()
-    var visited = Array(repeating: Array(repeating: 0, count: m), count: n)
-    
-    for _ in 0..<n {
-        box.append(readLine()!.split(separator: " ").map { Int($0)! })
-    }
-    
     var queue = [(Int, Int)]()
     var tomato = (0,0)
     
     for i in 0..<n {
-        for j in 0..<m {
-            if box[i][j] == 1 {
-                visited[i][j] = 1
-                queue.append((i,j))
-            } else if box[i][j] == -1 {
-                visited[i][j] = -1
-            }
-        }
+        let values = readLine()!.split(separator: " ").map { Int($0)! }
+        queue.append(contentsOf: values.enumerated().filter({ 1 == $0.element }).map { (i,$0.offset) }) // 값이 1인 indexes
+        box.append(values)
     }
     
-    while(queue.count > 0) {
-        tomato = queue.removeFirst()
+    var index = 0
+    while(queue.count > index) {
+        tomato = queue[index]
         
         for (i, j) in [(1, 0), (0, 1), (-1, 0), (0, -1)] {
             if (0..<n).contains(tomato.0+i), (0..<m).contains(tomato.1+j),  // 범위 체크
-               box[tomato.0+i][tomato.1+j] == 0, visited[tomato.0+i][tomato.1+j] == 0 {
+               box[tomato.0+i][tomato.1+j] == 0 {
                 queue.append((tomato.0+i, tomato.1+j))
-                visited[tomato.0+i][tomato.1+j] = visited[tomato.0][tomato.1] + 1
+                box[tomato.0+i][tomato.1+j] = box[tomato.0][tomato.1] + 1
             }
         }
+        index += 1
     }
     
-    let flatvisited = visited.flatMap { $0 }
+    let flatvisited = box.flatMap { $0 }
     let maxValue = flatvisited.max() ?? 1
     
     if flatvisited.contains(0) {
