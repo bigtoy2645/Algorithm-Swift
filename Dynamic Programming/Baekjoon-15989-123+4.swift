@@ -26,13 +26,27 @@
  */
 
 func sum4() {
-    let nums = Int(readLine()!)!
+    let count = Int(readLine()!)!
+    var nums = Array(repeating: 0, count: count)
+    var dp = Array(repeating: Array(repeating: 0, count: 4), count: 10001)
+    dp[0][1] = 1
     
-    func sumcase(n: Int) {
-        
+    for i in 0..<count {
+        nums[i] = Int(readLine()!)!
+    }
+    let max = nums.max() ?? 1
+    
+    for i in 1...max {
+        dp[i][1] = dp[i-1][1]
+        if i > 1 {
+            dp[i][2] = dp[i-2][1] + dp[i-2][2]
+        }
+        if i > 2 {
+            dp[i][3] = dp[i-3][1] + dp[i-3][2] + dp[i-3][3]
+        }
     }
     
-    for _ in 0..<nums {
-        sumcase(n: Int(readLine()!)!)
+    for n in nums {
+        print(dp[n][1] + dp[n][2] + dp[n][3])
     }
 }
