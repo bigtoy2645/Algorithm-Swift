@@ -1,0 +1,78 @@
+//
+//  7562-나이트의이동.swift
+//  baekjoon
+//
+//  Created by yurim on 2021/03/26.
+//
+// BFS+DFS) 나이트의 이동
+/*
+ 체스판 위에 한 나이트가 놓여져 있다. 나이트가 한 번에 이동할 수 있는 칸은 아래 그림에 나와있다. 나이트가 이동하려고 하는 칸이 주어진다. 나이트는 몇 번 움직이면 이 칸으로 이동할 수 있을까?
+ 입력) 입력의 첫째 줄에는 테스트 케이스의 개수가 주어진다.
+
+ 각 테스트 케이스는 세 줄로 이루어져 있다. 첫째 줄에는 체스판의 한 변의 길이 l(4 ≤ l ≤ 300)이 주어진다. 체스판의 크기는 l × l이다. 체스판의 각 칸은 두 수의 쌍 {0, ..., l-1} × {0, ..., l-1}로 나타낼 수 있다. 둘째 줄과 셋째 줄에는 나이트가 현재 있는 칸, 나이트가 이동하려고 하는 칸이 주어진다.
+ 체스판 한 변의 길이가 8이고 (0,0)에서 (7,0)으로 이동한다면 (0,0) -> (2,1) -> (4,2) -> (6,1) -> (8,2) -> (7,0)으로 총 5번 만에 이동할 수 있다.
+
+ 출력) 각 테스트 케이스마다 나이트가 최소 몇 번만에 이동할 수 있는지 출력한다.
+ 
+ 예제)
+3
+8
+0 0
+7 0
+100
+0 0
+30 50
+10
+1 1
+1 1
+ ->
+5
+28
+0
+ */
+
+func moveNight() {
+    let tc = Int(readLine()!)!
+    let movePoints = [(-1,-2), (-1,2), (1,-2), (1,2), (-2,-1), (-2,1), (2,-1), (2,1)]
+    
+    func move() {
+        let len = Int(readLine()!)!
+        let start = readLine()!.split(separator: " ").map { Int(String($0))! }
+        let end = readLine()!.split(separator: " ").map { Int(String($0))! }
+        var visited = Array(repeating: Array(repeating: -1, count: len), count: len)
+        var queue = [(Int, Int)]()
+        var index = 0
+        
+        visited[start[0]][start[1]] = 0
+        queue.append((start[0], start[1]))
+        
+        while (queue.count > index) {
+            let night = queue[index]
+            for point in movePoints {
+                let next = (point.0+night.0, point.1+night.1)
+                if next.0 >= 0, next.0 < len, next.1 >= 0, next.1 < len,    // 범위 체크
+                   visited[next.0][next.1] == -1 {                          // 방문하지 않은 곳만
+                    queue.append(next)
+                    visited[next.0][next.1] = visited[night.0][night.1] + 1
+                }
+            }
+            
+            /* 출력 테스트
+            for v in visited {
+                print(v)
+            }
+            print("-")
+             */
+            
+            index += 1
+        }
+        
+        print(visited[end[0]][end[1]])
+    }
+    
+    for _ in 0..<tc {
+        move()
+    }
+}
+
+
