@@ -38,6 +38,15 @@ NO
 NO
  
 1
+5 4
+1 2
+3 4
+4 5
+3 5
+->
+NO
+ 
+1
 4 4
 2 3
 1 4
@@ -48,14 +57,86 @@ YES
  */
 
 func bipartiteGraph() {
+    let K = Int(readLine()!)!
+    
+    for _ in 0..<K {
+        let nums = readLine()!.split(separator: " ").map { Int(String($0))! }
+        let V = nums[0], E = nums[1]
+        var links = Array(repeating: [Int](), count: V+1)
+        var visited = Array(repeating: -1, count: V+1)
+        var result = true
+        
+        for _ in 0..<E {
+            let link = readLine()!.split(separator: " ").map { Int(String($0))! }
+            links[link[0]].append(link[1])
+            links[link[1]].append(link[0])
+        }
+        
+        for i in 1...V {
+            if result == false { break }
+            if visited[i] != -1 { continue }    // 방문 여부 체크
+            
+            var queue = [i], index = 0
+            visited[i] = 0                      // 0은 RED, 1은 BLUE라고 가정한다.
+            
+            while queue.count > index, result == true {
+                let now = queue[index]
+                index += 1
+                for next in links[now] {        // 인접한 노드 값이 없으면 반대 색상 채우고 있으면 비교한다.
+                    if visited[next] == -1 {
+                        visited[next] = visited[now]^1
+                        queue.append(next)
+                    } else if visited[next] == visited[now] {
+                        result = false
+                        break
+                    }
+                }
+            }
+        }
+        print(result ? "YES" : "NO")
+    }
+}
+
+/* 틀렸습니다
+func bipartiteGraph() {
     let tc = Int(readLine()!)!
     let RED = 1, BLUE = 2
+    var links = [[Int]]()
+    var visited = [Int]()
+    
+    func bfs(_ i: Int) {
+        var color = RED
+        var queue = [Int]()
+        var index = 0
+        
+        visited[i] = color
+        queue.append(i)
+        while queue.count > index {
+            let pos = queue[index]
+            
+            if visited[pos] == RED {
+                color = BLUE
+            } else if visited[pos] == BLUE {
+                color = RED
+            }
+            
+            // 인접한 노드에 반대 색상 칠하기
+            for next in links[i] {
+                if visited[next] == 0 {
+                    visited[next] = color
+                    queue.append(next)
+                }
+            }
+            
+            index += 1
+        }
+    }
     
     for _ in 0..<tc {
         let nums = readLine()!.split(separator: " ").map { Int(String($0))! }
         let v = nums[0], e = nums[1]
-        var links = Array(repeating: [Int](), count: v+1)
-        var visited = Array(repeating: 0, count: v+1)
+        links = Array(repeating: [Int](), count: v+1)
+        visited = Array(repeating: 0, count: v+1)
         
         for _ in 0..<e {
             let link = readLine()!.split(separator: " ").map { Int(String($0))! }
@@ -65,31 +146,7 @@ func bipartiteGraph() {
         
         for i in 1...v {
             if visited[i] == 0 {
-                var color = RED
-                var queue = [Int]()
-                var index = 0
-                
-                visited[i] = color
-                queue.append(i)
-                while queue.count > index {
-                    let pos = queue[index]
-                    
-                    if visited[pos] == RED {
-                        color = BLUE
-                    } else if visited[pos] == BLUE {
-                        color = RED
-                    }
-                    
-                    // 인접한 노드에 반대 색상 칠하기
-                    for next in links[i] {
-                        if visited[next] == 0 {
-                            visited[next] = color
-                            queue.append(next)
-                        }
-                    }
-                    
-                    index += 1
-                }
+                bfs(i)
             }
         }
         
@@ -102,14 +159,13 @@ func bipartiteGraph() {
                     break
                 }
             }
-            if result == false {
-                 break
-            }
+            if result == false { break }
         }
         
         print(result ? "YES" : "NO")
     }
 }
+ */
 
 /* 메모리초과
 func bipartiteGraph() {
