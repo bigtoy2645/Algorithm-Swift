@@ -8,6 +8,73 @@
 
 /* Begin PBXBuildFile section */
 		1AA71AA6265D481900D370EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA71AA5265D481900D370EE /* main.swift */; };
+		1AC2CE74265FE26B009502ED /* Codility-lesson7-Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE67265FE26B009502ED /* Codility-lesson7-Brackets.swift */; };
+		1AC2CE75265FE26B009502ED /* Baekjoon-2675-문자열반복.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE68265FE26B009502ED /* Baekjoon-2675-문자열반복.swift */; };
+		1AC2CE76265FE26B009502ED /* Baekjoon-10872-팩토리얼.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE69265FE26B009502ED /* Baekjoon-10872-팩토리얼.swift */; };
+		1AC2CE77265FE26B009502ED /* Baekjoon-2447-별찍기10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE6A265FE26B009502ED /* Baekjoon-2447-별찍기10.swift */; };
+		1AC2CE78265FE26B009502ED /* Baekjoon-2775-부녀회장이될테야.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE6B265FE26B009502ED /* Baekjoon-2775-부녀회장이될테야.swift */; };
+		1AC2CE79265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE6C265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift */; };
+		1AC2CE7A265FE26B009502ED /* Baekjoon-1193-분수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE6D265FE26B009502ED /* Baekjoon-1193-분수찾기.swift */; };
+		1AC2CE7B265FE26B009502ED /* Codility-lesson1-BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE6E265FE26B009502ED /* Codility-lesson1-BinaryGap.swift */; };
+		1AC2CE7C265FE26B009502ED /* Codility-lesson7-Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE6F265FE26B009502ED /* Codility-lesson7-Fish.swift */; };
+		1AC2CE7D265FE26B009502ED /* Baekjoon-4673-셀프넘버.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE70265FE26B009502ED /* Baekjoon-4673-셀프넘버.swift */; };
+		1AC2CE7E265FE26B009502ED /* Baekjoon-2292-벌집.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE71265FE26B009502ED /* Baekjoon-2292-벌집.swift */; };
+		1AC2CE7F265FE26B009502ED /* Baekjoon-1712-손익분기점.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE72265FE26B009502ED /* Baekjoon-1712-손익분기점.swift */; };
+		1AC2CE80265FE26B009502ED /* Baekjoon-10809-알파벳찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE73265FE26B009502ED /* Baekjoon-10809-알파벳찾기.swift */; };
+		1AC2CECB265FE291009502ED /* Baekjoon-1890-점프.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE84265FE291009502ED /* Baekjoon-1890-점프.swift */; };
+		1AC2CECC265FE291009502ED /* Baekjoon-15486-퇴사2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE85265FE291009502ED /* Baekjoon-15486-퇴사2.swift */; };
+		1AC2CECD265FE291009502ED /* Baekjoon-1495-기타리스트.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE86265FE291009502ED /* Baekjoon-1495-기타리스트.swift */; };
+		1AC2CECE265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE87265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift */; };
+		1AC2CECF265FE291009502ED /* Baekjoon-11058-크리보드.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE89265FE291009502ED /* Baekjoon-11058-크리보드.swift */; };
+		1AC2CED0265FE291009502ED /* Baekjoon-15989-123+4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE8A265FE291009502ED /* Baekjoon-15989-123+4.swift */; };
+		1AC2CED1265FE291009502ED /* Baekjoon-13305-주유소.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE8C265FE291009502ED /* Baekjoon-13305-주유소.swift */; };
+		1AC2CED2265FE291009502ED /* Codility-lesson16-TieRopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE8D265FE291009502ED /* Codility-lesson16-TieRopes.swift */; };
+		1AC2CED3265FE291009502ED /* Codility-lesson16-MaxNonoverlappingSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE8E265FE291009502ED /* Codility-lesson16-MaxNonoverlappingSegments.swift */; };
+		1AC2CED4265FE291009502ED /* Baekjoon-11047-동전0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE8F265FE291009502ED /* Baekjoon-11047-동전0.swift */; };
+		1AC2CED5265FE291009502ED /* Baekjoon-1931-회의실배정.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE90265FE291009502ED /* Baekjoon-1931-회의실배정.swift */; };
+		1AC2CED6265FE291009502ED /* Baekjoon-2839-설탕배달.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE91265FE291009502ED /* Baekjoon-2839-설탕배달.swift */; };
+		1AC2CED7265FE291009502ED /* Baekjoon-1541-잃어버린괄호.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE93265FE291009502ED /* Baekjoon-1541-잃어버린괄호.swift */; };
+		1AC2CED8265FE291009502ED /* Baekjoon-11399-ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE94265FE291009502ED /* Baekjoon-11399-ATM.swift */; };
+		1AC2CED9265FE291009502ED /* Programmers2-RemoveNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE95265FE291009502ED /* Programmers2-RemoveNumbers.swift */; };
+		1AC2CEDA265FE291009502ED /* Programmers1-GymSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE96265FE291009502ED /* Programmers1-GymSuit.swift */; };
+		1AC2CEDB265FE291009502ED /* Programmers2-Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE97265FE291009502ED /* Programmers2-Joystick.swift */; };
+		1AC2CEDD265FE291009502ED /* DiskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA0265FE291009502ED /* DiskController.swift */; };
+		1AC2CEDE265FE291009502ED /* MaxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA2265FE291009502ED /* MaxValue.swift */; };
+		1AC2CEDF265FE291009502ED /* QuadCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA3265FE291009502ED /* QuadCompression.swift */; };
+		1AC2CEE0265FE291009502ED /* TriangularSnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA4265FE291009502ED /* TriangularSnail.swift */; };
+		1AC2CEE1265FE291009502ED /* OpenChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA5265FE291009502ED /* OpenChat.swift */; };
+		1AC2CEE2265FE291009502ED /* Camouflage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA6265FE291009502ED /* Camouflage.swift */; };
+		1AC2CEE3265FE291009502ED /* Carpet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA7265FE291009502ED /* Carpet.swift */; };
+		1AC2CEE4265FE291009502ED /* TargetNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA8265FE291009502ED /* TargetNumber.swift */; };
+		1AC2CEE5265FE291009502ED /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEA9265FE291009502ED /* H-Index.swift */; };
+		1AC2CEE6265FE291009502ED /* Bracket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEAA265FE291009502ED /* Bracket.swift */; };
+		1AC2CEE7265FE291009502ED /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEAB265FE291009502ED /* Printer.swift */; };
+		1AC2CEE8265FE291009502ED /* MathTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEAD265FE291009502ED /* MathTest.swift */; };
+		1AC2CEE9265FE291009502ED /* AddTwoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEAE265FE291009502ED /* AddTwoInt.swift */; };
+		1AC2CEEA265FE291009502ED /* SumTwoElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEAF265FE291009502ED /* SumTwoElements.swift */; };
+		1AC2CEEB265FE291009502ED /* Year2016.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB0265FE291009502ED /* Year2016.swift */; };
+		1AC2CEEC265FE291009502ED /* MiddleLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB1265FE291009502ED /* MiddleLetter.swift */; };
+		1AC2CEED265FE291009502ED /* InnerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB2265FE291009502ED /* InnerProduct.swift */; };
+		1AC2CEEE265FE291009502ED /* ReverseRadix3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB3265FE291009502ED /* ReverseRadix3.swift */; };
+		1AC2CEEF265FE291009502ED /* FindPrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB4265FE291009502ED /* FindPrimeNumber.swift */; };
+		1AC2CEF0265FE291009502ED /* Kth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB5265FE291009502ED /* Kth.swift */; };
+		1AC2CEF1265FE291009502ED /* Baekjoon-1012-유기농배추.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB7265FE291009502ED /* Baekjoon-1012-유기농배추.swift */; };
+		1AC2CEF2265FE291009502ED /* Baekjoon-1707-이분그래프.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB8265FE291009502ED /* Baekjoon-1707-이분그래프.swift */; };
+		1AC2CEF3265FE291009502ED /* Baekjoon-1260-DFS와BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEB9265FE291009502ED /* Baekjoon-1260-DFS와BFS.swift */; };
+		1AC2CEF4265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEBA265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift */; };
+		1AC2CEF5265FE291009502ED /* Baekjoon-2206-벽부수고이동하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEBB265FE291009502ED /* Baekjoon-2206-벽부수고이동하기.swift */; };
+		1AC2CEF6265FE291009502ED /* Baekjoon-2178-미로찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEBC265FE291009502ED /* Baekjoon-2178-미로찾기.swift */; };
+		1AC2CEF7265FE291009502ED /* Baekjoon-7569-3차원토마토.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEBD265FE291009502ED /* Baekjoon-7569-3차원토마토.swift */; };
+		1AC2CEF8265FE291009502ED /* Baekjoon-7576-토마토.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEBF265FE291009502ED /* Baekjoon-7576-토마토.swift */; };
+		1AC2CEF9265FE291009502ED /* Baekjoon-7562-나이트의이동.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC0265FE291009502ED /* Baekjoon-7562-나이트의이동.swift */; };
+		1AC2CEFA265FE291009502ED /* Baekjoon-2667-단지번호붙이기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC1265FE291009502ED /* Baekjoon-2667-단지번호붙이기.swift */; };
+		1AC2CEFB265FE291009502ED /* Baekjoon-2606-바이러스.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC2265FE291009502ED /* Baekjoon-2606-바이러스.swift */; };
+		1AC2CEFC265FE291009502ED /* Baekjoon-1436-영화감독숌.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC4265FE291009502ED /* Baekjoon-1436-영화감독숌.swift */; };
+		1AC2CEFD265FE291009502ED /* Baekjoon-7568-덩치.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC5265FE291009502ED /* Baekjoon-7568-덩치.swift */; };
+		1AC2CEFE265FE291009502ED /* Baekjoon-1018-체스판칠하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC7265FE291009502ED /* Baekjoon-1018-체스판칠하기.swift */; };
+		1AC2CEFF265FE291009502ED /* Baekjoon-2231-분해합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC8265FE291009502ED /* Baekjoon-2231-분해합.swift */; };
+		1AC2CF00265FE291009502ED /* Baekjoon-2798-블랙잭.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */; };
+		1AC2CF01265FE291009502ED /* Baekjoon-1065-한수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +92,78 @@
 /* Begin PBXFileReference section */
 		1AA71AA2265D481900D370EE /* AlgorithmProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA71AA5265D481900D370EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		1AA71AAD265D485700D370EE /* Programmers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Programmers; path = ../../Programmers; sourceTree = "<group>"; };
-		1AA71AAE265D485700D370EE /* DFS+BFS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "DFS+BFS"; path = "../../DFS+BFS"; sourceTree = "<group>"; };
 		1AA71AAF265D485700D370EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		1AA71AB0265D485700D370EE /* Basic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Basic; path = ../../Basic; sourceTree = "<group>"; };
-		1AA71AB1265D485800D370EE /* Brute Force */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Brute Force"; path = "../../Brute Force"; sourceTree = "<group>"; };
-		1AA71AB2265D485800D370EE /* Dynamic Programming */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Dynamic Programming"; path = "../../Dynamic Programming"; sourceTree = "<group>"; };
-		1AA71AB3265D485800D370EE /* Greedy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Greedy; path = ../../Greedy; sourceTree = "<group>"; };
+		1AC2CE67265FE26B009502ED /* Codility-lesson7-Brackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codility-lesson7-Brackets.swift"; sourceTree = "<group>"; };
+		1AC2CE68265FE26B009502ED /* Baekjoon-2675-문자열반복.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2675-문자열반복.swift"; sourceTree = "<group>"; };
+		1AC2CE69265FE26B009502ED /* Baekjoon-10872-팩토리얼.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10872-팩토리얼.swift"; sourceTree = "<group>"; };
+		1AC2CE6A265FE26B009502ED /* Baekjoon-2447-별찍기10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2447-별찍기10.swift"; sourceTree = "<group>"; };
+		1AC2CE6B265FE26B009502ED /* Baekjoon-2775-부녀회장이될테야.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2775-부녀회장이될테야.swift"; sourceTree = "<group>"; };
+		1AC2CE6C265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10870-피보나치수5.swift"; sourceTree = "<group>"; };
+		1AC2CE6D265FE26B009502ED /* Baekjoon-1193-분수찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1193-분수찾기.swift"; sourceTree = "<group>"; };
+		1AC2CE6E265FE26B009502ED /* Codility-lesson1-BinaryGap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codility-lesson1-BinaryGap.swift"; sourceTree = "<group>"; };
+		1AC2CE6F265FE26B009502ED /* Codility-lesson7-Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codility-lesson7-Fish.swift"; sourceTree = "<group>"; };
+		1AC2CE70265FE26B009502ED /* Baekjoon-4673-셀프넘버.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-4673-셀프넘버.swift"; sourceTree = "<group>"; };
+		1AC2CE71265FE26B009502ED /* Baekjoon-2292-벌집.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2292-벌집.swift"; sourceTree = "<group>"; };
+		1AC2CE72265FE26B009502ED /* Baekjoon-1712-손익분기점.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1712-손익분기점.swift"; sourceTree = "<group>"; };
+		1AC2CE73265FE26B009502ED /* Baekjoon-10809-알파벳찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10809-알파벳찾기.swift"; sourceTree = "<group>"; };
+		1AC2CE84265FE291009502ED /* Baekjoon-1890-점프.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1890-점프.swift"; sourceTree = "<group>"; };
+		1AC2CE85265FE291009502ED /* Baekjoon-15486-퇴사2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-15486-퇴사2.swift"; sourceTree = "<group>"; };
+		1AC2CE86265FE291009502ED /* Baekjoon-1495-기타리스트.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1495-기타리스트.swift"; sourceTree = "<group>"; };
+		1AC2CE87265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codility-lesson17-NumberSolitaire.swift"; sourceTree = "<group>"; };
+		1AC2CE88265FE291009502ED /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1AC2CE89265FE291009502ED /* Baekjoon-11058-크리보드.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-11058-크리보드.swift"; sourceTree = "<group>"; };
+		1AC2CE8A265FE291009502ED /* Baekjoon-15989-123+4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-15989-123+4.swift"; sourceTree = "<group>"; };
+		1AC2CE8C265FE291009502ED /* Baekjoon-13305-주유소.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-13305-주유소.swift"; sourceTree = "<group>"; };
+		1AC2CE8D265FE291009502ED /* Codility-lesson16-TieRopes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codility-lesson16-TieRopes.swift"; sourceTree = "<group>"; };
+		1AC2CE8E265FE291009502ED /* Codility-lesson16-MaxNonoverlappingSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codility-lesson16-MaxNonoverlappingSegments.swift"; sourceTree = "<group>"; };
+		1AC2CE8F265FE291009502ED /* Baekjoon-11047-동전0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-11047-동전0.swift"; sourceTree = "<group>"; };
+		1AC2CE90265FE291009502ED /* Baekjoon-1931-회의실배정.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1931-회의실배정.swift"; sourceTree = "<group>"; };
+		1AC2CE91265FE291009502ED /* Baekjoon-2839-설탕배달.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2839-설탕배달.swift"; sourceTree = "<group>"; };
+		1AC2CE92265FE291009502ED /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1AC2CE93265FE291009502ED /* Baekjoon-1541-잃어버린괄호.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1541-잃어버린괄호.swift"; sourceTree = "<group>"; };
+		1AC2CE94265FE291009502ED /* Baekjoon-11399-ATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-11399-ATM.swift"; sourceTree = "<group>"; };
+		1AC2CE95265FE291009502ED /* Programmers2-RemoveNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Programmers2-RemoveNumbers.swift"; sourceTree = "<group>"; };
+		1AC2CE96265FE291009502ED /* Programmers1-GymSuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Programmers1-GymSuit.swift"; sourceTree = "<group>"; };
+		1AC2CE97265FE291009502ED /* Programmers2-Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Programmers2-Joystick.swift"; sourceTree = "<group>"; };
+		1AC2CEA0265FE291009502ED /* DiskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskController.swift; sourceTree = "<group>"; };
+		1AC2CEA2265FE291009502ED /* MaxValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxValue.swift; sourceTree = "<group>"; };
+		1AC2CEA3265FE291009502ED /* QuadCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadCompression.swift; sourceTree = "<group>"; };
+		1AC2CEA4265FE291009502ED /* TriangularSnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangularSnail.swift; sourceTree = "<group>"; };
+		1AC2CEA5265FE291009502ED /* OpenChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenChat.swift; sourceTree = "<group>"; };
+		1AC2CEA6265FE291009502ED /* Camouflage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camouflage.swift; sourceTree = "<group>"; };
+		1AC2CEA7265FE291009502ED /* Carpet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carpet.swift; sourceTree = "<group>"; };
+		1AC2CEA8265FE291009502ED /* TargetNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetNumber.swift; sourceTree = "<group>"; };
+		1AC2CEA9265FE291009502ED /* H-Index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
+		1AC2CEAA265FE291009502ED /* Bracket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bracket.swift; sourceTree = "<group>"; };
+		1AC2CEAB265FE291009502ED /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		1AC2CEAD265FE291009502ED /* MathTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathTest.swift; sourceTree = "<group>"; };
+		1AC2CEAE265FE291009502ED /* AddTwoInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoInt.swift; sourceTree = "<group>"; };
+		1AC2CEAF265FE291009502ED /* SumTwoElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumTwoElements.swift; sourceTree = "<group>"; };
+		1AC2CEB0265FE291009502ED /* Year2016.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Year2016.swift; sourceTree = "<group>"; };
+		1AC2CEB1265FE291009502ED /* MiddleLetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleLetter.swift; sourceTree = "<group>"; };
+		1AC2CEB2265FE291009502ED /* InnerProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerProduct.swift; sourceTree = "<group>"; };
+		1AC2CEB3265FE291009502ED /* ReverseRadix3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseRadix3.swift; sourceTree = "<group>"; };
+		1AC2CEB4265FE291009502ED /* FindPrimeNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPrimeNumber.swift; sourceTree = "<group>"; };
+		1AC2CEB5265FE291009502ED /* Kth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kth.swift; sourceTree = "<group>"; };
+		1AC2CEB7265FE291009502ED /* Baekjoon-1012-유기농배추.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1012-유기농배추.swift"; sourceTree = "<group>"; };
+		1AC2CEB8265FE291009502ED /* Baekjoon-1707-이분그래프.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1707-이분그래프.swift"; sourceTree = "<group>"; };
+		1AC2CEB9265FE291009502ED /* Baekjoon-1260-DFS와BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1260-DFS와BFS.swift"; sourceTree = "<group>"; };
+		1AC2CEBA265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1697-숨바꼭질.swift"; sourceTree = "<group>"; };
+		1AC2CEBB265FE291009502ED /* Baekjoon-2206-벽부수고이동하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2206-벽부수고이동하기.swift"; sourceTree = "<group>"; };
+		1AC2CEBC265FE291009502ED /* Baekjoon-2178-미로찾기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2178-미로찾기.swift"; sourceTree = "<group>"; };
+		1AC2CEBD265FE291009502ED /* Baekjoon-7569-3차원토마토.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-7569-3차원토마토.swift"; sourceTree = "<group>"; };
+		1AC2CEBE265FE291009502ED /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1AC2CEBF265FE291009502ED /* Baekjoon-7576-토마토.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-7576-토마토.swift"; sourceTree = "<group>"; };
+		1AC2CEC0265FE291009502ED /* Baekjoon-7562-나이트의이동.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-7562-나이트의이동.swift"; sourceTree = "<group>"; };
+		1AC2CEC1265FE291009502ED /* Baekjoon-2667-단지번호붙이기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2667-단지번호붙이기.swift"; sourceTree = "<group>"; };
+		1AC2CEC2265FE291009502ED /* Baekjoon-2606-바이러스.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2606-바이러스.swift"; sourceTree = "<group>"; };
+		1AC2CEC4265FE291009502ED /* Baekjoon-1436-영화감독숌.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1436-영화감독숌.swift"; sourceTree = "<group>"; };
+		1AC2CEC5265FE291009502ED /* Baekjoon-7568-덩치.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-7568-덩치.swift"; sourceTree = "<group>"; };
+		1AC2CEC6265FE291009502ED /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1AC2CEC7265FE291009502ED /* Baekjoon-1018-체스판칠하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1018-체스판칠하기.swift"; sourceTree = "<group>"; };
+		1AC2CEC8265FE291009502ED /* Baekjoon-2231-분해합.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2231-분해합.swift"; sourceTree = "<group>"; };
+		1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2798-블랙잭.swift"; sourceTree = "<group>"; };
+		1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1065-한수.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +197,158 @@
 			isa = PBXGroup;
 			children = (
 				1AA71AA5265D481900D370EE /* main.swift */,
-				1AA71AB0265D485700D370EE /* Basic */,
-				1AA71AB1265D485800D370EE /* Brute Force */,
-				1AA71AAE265D485700D370EE /* DFS+BFS */,
-				1AA71AB2265D485800D370EE /* Dynamic Programming */,
-				1AA71AB3265D485800D370EE /* Greedy */,
-				1AA71AAD265D485700D370EE /* Programmers */,
+				1AC2CE66265FE26B009502ED /* Basic */,
+				1AC2CEC3265FE291009502ED /* Brute Force */,
+				1AC2CE8B265FE291009502ED /* Greedy */,
+				1AC2CEB6265FE291009502ED /* DFS+BFS */,
+				1AC2CE83265FE291009502ED /* Dynamic Programming */,
+				1AC2CE9E265FE291009502ED /* Programmers */,
 				1AA71AAF265D485700D370EE /* README.md */,
 			);
 			path = AlgorithmProject;
+			sourceTree = "<group>";
+		};
+		1AC2CE66265FE26B009502ED /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CE67265FE26B009502ED /* Codility-lesson7-Brackets.swift */,
+				1AC2CE68265FE26B009502ED /* Baekjoon-2675-문자열반복.swift */,
+				1AC2CE69265FE26B009502ED /* Baekjoon-10872-팩토리얼.swift */,
+				1AC2CE6A265FE26B009502ED /* Baekjoon-2447-별찍기10.swift */,
+				1AC2CE6B265FE26B009502ED /* Baekjoon-2775-부녀회장이될테야.swift */,
+				1AC2CE6C265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift */,
+				1AC2CE6D265FE26B009502ED /* Baekjoon-1193-분수찾기.swift */,
+				1AC2CE6E265FE26B009502ED /* Codility-lesson1-BinaryGap.swift */,
+				1AC2CE6F265FE26B009502ED /* Codility-lesson7-Fish.swift */,
+				1AC2CE70265FE26B009502ED /* Baekjoon-4673-셀프넘버.swift */,
+				1AC2CE71265FE26B009502ED /* Baekjoon-2292-벌집.swift */,
+				1AC2CE72265FE26B009502ED /* Baekjoon-1712-손익분기점.swift */,
+				1AC2CE73265FE26B009502ED /* Baekjoon-10809-알파벳찾기.swift */,
+			);
+			name = Basic;
+			path = ../../Basic;
+			sourceTree = "<group>";
+		};
+		1AC2CE83265FE291009502ED /* Dynamic Programming */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CE84265FE291009502ED /* Baekjoon-1890-점프.swift */,
+				1AC2CE85265FE291009502ED /* Baekjoon-15486-퇴사2.swift */,
+				1AC2CE86265FE291009502ED /* Baekjoon-1495-기타리스트.swift */,
+				1AC2CE87265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift */,
+				1AC2CE88265FE291009502ED /* Readme.md */,
+				1AC2CE89265FE291009502ED /* Baekjoon-11058-크리보드.swift */,
+				1AC2CE8A265FE291009502ED /* Baekjoon-15989-123+4.swift */,
+			);
+			name = "Dynamic Programming";
+			path = "../../Dynamic Programming";
+			sourceTree = "<group>";
+		};
+		1AC2CE8B265FE291009502ED /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CE8C265FE291009502ED /* Baekjoon-13305-주유소.swift */,
+				1AC2CE8D265FE291009502ED /* Codility-lesson16-TieRopes.swift */,
+				1AC2CE8E265FE291009502ED /* Codility-lesson16-MaxNonoverlappingSegments.swift */,
+				1AC2CE8F265FE291009502ED /* Baekjoon-11047-동전0.swift */,
+				1AC2CE90265FE291009502ED /* Baekjoon-1931-회의실배정.swift */,
+				1AC2CE91265FE291009502ED /* Baekjoon-2839-설탕배달.swift */,
+				1AC2CE92265FE291009502ED /* Readme.md */,
+				1AC2CE93265FE291009502ED /* Baekjoon-1541-잃어버린괄호.swift */,
+				1AC2CE94265FE291009502ED /* Baekjoon-11399-ATM.swift */,
+				1AC2CE95265FE291009502ED /* Programmers2-RemoveNumbers.swift */,
+				1AC2CE96265FE291009502ED /* Programmers1-GymSuit.swift */,
+				1AC2CE97265FE291009502ED /* Programmers2-Joystick.swift */,
+			);
+			name = Greedy;
+			path = ../../Greedy;
+			sourceTree = "<group>";
+		};
+		1AC2CE9E265FE291009502ED /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CE9F265FE291009502ED /* Level3 */,
+				1AC2CEA1265FE291009502ED /* Level2 */,
+				1AC2CEAC265FE291009502ED /* Level1 */,
+			);
+			name = Programmers;
+			path = ../../Programmers;
+			sourceTree = "<group>";
+		};
+		1AC2CE9F265FE291009502ED /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CEA0265FE291009502ED /* DiskController.swift */,
+			);
+			path = Level3;
+			sourceTree = "<group>";
+		};
+		1AC2CEA1265FE291009502ED /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CEA2265FE291009502ED /* MaxValue.swift */,
+				1AC2CEA3265FE291009502ED /* QuadCompression.swift */,
+				1AC2CEA4265FE291009502ED /* TriangularSnail.swift */,
+				1AC2CEA5265FE291009502ED /* OpenChat.swift */,
+				1AC2CEA6265FE291009502ED /* Camouflage.swift */,
+				1AC2CEA7265FE291009502ED /* Carpet.swift */,
+				1AC2CEA8265FE291009502ED /* TargetNumber.swift */,
+				1AC2CEA9265FE291009502ED /* H-Index.swift */,
+				1AC2CEAA265FE291009502ED /* Bracket.swift */,
+				1AC2CEAB265FE291009502ED /* Printer.swift */,
+			);
+			path = Level2;
+			sourceTree = "<group>";
+		};
+		1AC2CEAC265FE291009502ED /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CEAD265FE291009502ED /* MathTest.swift */,
+				1AC2CEAE265FE291009502ED /* AddTwoInt.swift */,
+				1AC2CEAF265FE291009502ED /* SumTwoElements.swift */,
+				1AC2CEB0265FE291009502ED /* Year2016.swift */,
+				1AC2CEB1265FE291009502ED /* MiddleLetter.swift */,
+				1AC2CEB2265FE291009502ED /* InnerProduct.swift */,
+				1AC2CEB3265FE291009502ED /* ReverseRadix3.swift */,
+				1AC2CEB4265FE291009502ED /* FindPrimeNumber.swift */,
+				1AC2CEB5265FE291009502ED /* Kth.swift */,
+			);
+			path = Level1;
+			sourceTree = "<group>";
+		};
+		1AC2CEB6265FE291009502ED /* DFS+BFS */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CEB7265FE291009502ED /* Baekjoon-1012-유기농배추.swift */,
+				1AC2CEB8265FE291009502ED /* Baekjoon-1707-이분그래프.swift */,
+				1AC2CEB9265FE291009502ED /* Baekjoon-1260-DFS와BFS.swift */,
+				1AC2CEBA265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift */,
+				1AC2CEBB265FE291009502ED /* Baekjoon-2206-벽부수고이동하기.swift */,
+				1AC2CEBC265FE291009502ED /* Baekjoon-2178-미로찾기.swift */,
+				1AC2CEBD265FE291009502ED /* Baekjoon-7569-3차원토마토.swift */,
+				1AC2CEBE265FE291009502ED /* Readme.md */,
+				1AC2CEBF265FE291009502ED /* Baekjoon-7576-토마토.swift */,
+				1AC2CEC0265FE291009502ED /* Baekjoon-7562-나이트의이동.swift */,
+				1AC2CEC1265FE291009502ED /* Baekjoon-2667-단지번호붙이기.swift */,
+				1AC2CEC2265FE291009502ED /* Baekjoon-2606-바이러스.swift */,
+			);
+			name = "DFS+BFS";
+			path = "../../DFS+BFS";
+			sourceTree = "<group>";
+		};
+		1AC2CEC3265FE291009502ED /* Brute Force */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CEC4265FE291009502ED /* Baekjoon-1436-영화감독숌.swift */,
+				1AC2CEC5265FE291009502ED /* Baekjoon-7568-덩치.swift */,
+				1AC2CEC6265FE291009502ED /* Readme.md */,
+				1AC2CEC7265FE291009502ED /* Baekjoon-1018-체스판칠하기.swift */,
+				1AC2CEC8265FE291009502ED /* Baekjoon-2231-분해합.swift */,
+				1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */,
+				1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */,
+			);
+			name = "Brute Force";
+			path = "../../Brute Force";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +408,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC2CE7D265FE26B009502ED /* Baekjoon-4673-셀프넘버.swift in Sources */,
+				1AC2CE7F265FE26B009502ED /* Baekjoon-1712-손익분기점.swift in Sources */,
+				1AC2CE75265FE26B009502ED /* Baekjoon-2675-문자열반복.swift in Sources */,
+				1AC2CEFB265FE291009502ED /* Baekjoon-2606-바이러스.swift in Sources */,
+				1AC2CEF0265FE291009502ED /* Kth.swift in Sources */,
+				1AC2CEF4265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift in Sources */,
+				1AC2CEEE265FE291009502ED /* ReverseRadix3.swift in Sources */,
+				1AC2CED4265FE291009502ED /* Baekjoon-11047-동전0.swift in Sources */,
+				1AC2CED5265FE291009502ED /* Baekjoon-1931-회의실배정.swift in Sources */,
+				1AC2CE74265FE26B009502ED /* Codility-lesson7-Brackets.swift in Sources */,
+				1AC2CE76265FE26B009502ED /* Baekjoon-10872-팩토리얼.swift in Sources */,
+				1AC2CEF1265FE291009502ED /* Baekjoon-1012-유기농배추.swift in Sources */,
+				1AC2CEE9265FE291009502ED /* AddTwoInt.swift in Sources */,
+				1AC2CED6265FE291009502ED /* Baekjoon-2839-설탕배달.swift in Sources */,
+				1AC2CF01265FE291009502ED /* Baekjoon-1065-한수.swift in Sources */,
+				1AC2CEEF265FE291009502ED /* FindPrimeNumber.swift in Sources */,
+				1AC2CF00265FE291009502ED /* Baekjoon-2798-블랙잭.swift in Sources */,
+				1AC2CEE0265FE291009502ED /* TriangularSnail.swift in Sources */,
+				1AC2CEF5265FE291009502ED /* Baekjoon-2206-벽부수고이동하기.swift in Sources */,
+				1AC2CEDE265FE291009502ED /* MaxValue.swift in Sources */,
+				1AC2CEDD265FE291009502ED /* DiskController.swift in Sources */,
+				1AC2CED0265FE291009502ED /* Baekjoon-15989-123+4.swift in Sources */,
+				1AC2CE79265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift in Sources */,
+				1AC2CEFC265FE291009502ED /* Baekjoon-1436-영화감독숌.swift in Sources */,
+				1AC2CE7C265FE26B009502ED /* Codility-lesson7-Fish.swift in Sources */,
+				1AC2CEE7265FE291009502ED /* Printer.swift in Sources */,
+				1AC2CEF6265FE291009502ED /* Baekjoon-2178-미로찾기.swift in Sources */,
+				1AC2CED8265FE291009502ED /* Baekjoon-11399-ATM.swift in Sources */,
+				1AC2CED9265FE291009502ED /* Programmers2-RemoveNumbers.swift in Sources */,
+				1AC2CEEB265FE291009502ED /* Year2016.swift in Sources */,
+				1AC2CEF7265FE291009502ED /* Baekjoon-7569-3차원토마토.swift in Sources */,
+				1AC2CEF9265FE291009502ED /* Baekjoon-7562-나이트의이동.swift in Sources */,
+				1AC2CECD265FE291009502ED /* Baekjoon-1495-기타리스트.swift in Sources */,
+				1AC2CE7A265FE26B009502ED /* Baekjoon-1193-분수찾기.swift in Sources */,
+				1AC2CEDF265FE291009502ED /* QuadCompression.swift in Sources */,
+				1AC2CED2265FE291009502ED /* Codility-lesson16-TieRopes.swift in Sources */,
+				1AC2CEE4265FE291009502ED /* TargetNumber.swift in Sources */,
+				1AC2CED7265FE291009502ED /* Baekjoon-1541-잃어버린괄호.swift in Sources */,
+				1AC2CEDB265FE291009502ED /* Programmers2-Joystick.swift in Sources */,
+				1AC2CEE2265FE291009502ED /* Camouflage.swift in Sources */,
+				1AC2CEF3265FE291009502ED /* Baekjoon-1260-DFS와BFS.swift in Sources */,
+				1AC2CECC265FE291009502ED /* Baekjoon-15486-퇴사2.swift in Sources */,
+				1AC2CEFF265FE291009502ED /* Baekjoon-2231-분해합.swift in Sources */,
+				1AC2CEED265FE291009502ED /* InnerProduct.swift in Sources */,
+				1AC2CEFD265FE291009502ED /* Baekjoon-7568-덩치.swift in Sources */,
+				1AC2CEF2265FE291009502ED /* Baekjoon-1707-이분그래프.swift in Sources */,
+				1AC2CE80265FE26B009502ED /* Baekjoon-10809-알파벳찾기.swift in Sources */,
+				1AC2CE7E265FE26B009502ED /* Baekjoon-2292-벌집.swift in Sources */,
+				1AC2CEF8265FE291009502ED /* Baekjoon-7576-토마토.swift in Sources */,
+				1AC2CE77265FE26B009502ED /* Baekjoon-2447-별찍기10.swift in Sources */,
+				1AC2CEEA265FE291009502ED /* SumTwoElements.swift in Sources */,
+				1AC2CEE1265FE291009502ED /* OpenChat.swift in Sources */,
+				1AC2CE78265FE26B009502ED /* Baekjoon-2775-부녀회장이될테야.swift in Sources */,
+				1AC2CED3265FE291009502ED /* Codility-lesson16-MaxNonoverlappingSegments.swift in Sources */,
+				1AC2CE7B265FE26B009502ED /* Codility-lesson1-BinaryGap.swift in Sources */,
+				1AC2CEFE265FE291009502ED /* Baekjoon-1018-체스판칠하기.swift in Sources */,
+				1AC2CEFA265FE291009502ED /* Baekjoon-2667-단지번호붙이기.swift in Sources */,
+				1AC2CEE5265FE291009502ED /* H-Index.swift in Sources */,
+				1AC2CEE6265FE291009502ED /* Bracket.swift in Sources */,
 				1AA71AA6265D481900D370EE /* main.swift in Sources */,
+				1AC2CED1265FE291009502ED /* Baekjoon-13305-주유소.swift in Sources */,
+				1AC2CECE265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift in Sources */,
+				1AC2CEE8265FE291009502ED /* MathTest.swift in Sources */,
+				1AC2CECF265FE291009502ED /* Baekjoon-11058-크리보드.swift in Sources */,
+				1AC2CEEC265FE291009502ED /* MiddleLetter.swift in Sources */,
+				1AC2CEDA265FE291009502ED /* Programmers1-GymSuit.swift in Sources */,
+				1AC2CECB265FE291009502ED /* Baekjoon-1890-점프.swift in Sources */,
+				1AC2CEE3265FE291009502ED /* Carpet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +603,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8L5GQUP5L4;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Basic/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -272,8 +616,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8L5GQUP5L4;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../Basic/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
