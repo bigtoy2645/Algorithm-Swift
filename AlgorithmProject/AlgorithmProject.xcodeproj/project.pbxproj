@@ -76,6 +76,7 @@
 		1AC2CF00265FE291009502ED /* Baekjoon-2798-블랙잭.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */; };
 		1AC2CF01265FE291009502ED /* Baekjoon-1065-한수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */; };
 		1AC2CF0626667672009502ED /* Baekjoon-9093-단어뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */; };
+		1AC2CF0B26667B2A009502ED /* Baekjoon-10828-스택.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,6 +167,7 @@
 		1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2798-블랙잭.swift"; sourceTree = "<group>"; };
 		1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1065-한수.swift"; sourceTree = "<group>"; };
 		1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-9093-단어뒤집기.swift"; sourceTree = "<group>"; };
+		1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10828-스택.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				1AC2CE8B265FE291009502ED /* Greedy */,
 				1AC2CEB6265FE291009502ED /* DFS+BFS */,
 				1AC2CE83265FE291009502ED /* Dynamic Programming */,
+				1AC2CF0926667B16009502ED /* Data Structure */,
 				1AC2CE9E265FE291009502ED /* Programmers */,
 				1AA71AAF265D485700D370EE /* README.md */,
 			);
@@ -354,6 +357,15 @@
 			path = "../../Brute Force";
 			sourceTree = "<group>";
 		};
+		1AC2CF0926667B16009502ED /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */,
+			);
+			name = "Data Structure";
+			path = "../../Data Structure";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,6 +444,7 @@
 				1AC2CEE0265FE291009502ED /* TriangularSnail.swift in Sources */,
 				1AC2CEF5265FE291009502ED /* Baekjoon-2206-벽부수고이동하기.swift in Sources */,
 				1AC2CEDE265FE291009502ED /* MaxValue.swift in Sources */,
+				1AC2CF0B26667B2A009502ED /* Baekjoon-10828-스택.swift in Sources */,
 				1AC2CEDD265FE291009502ED /* DiskController.swift in Sources */,
 				1AC2CED0265FE291009502ED /* Baekjoon-15989-123+4.swift in Sources */,
 				1AC2CE79265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift in Sources */,
