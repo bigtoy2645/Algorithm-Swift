@@ -75,6 +75,7 @@
 		1AC2CEFF265FE291009502ED /* Baekjoon-2231-분해합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC8265FE291009502ED /* Baekjoon-2231-분해합.swift */; };
 		1AC2CF00265FE291009502ED /* Baekjoon-2798-블랙잭.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */; };
 		1AC2CF01265FE291009502ED /* Baekjoon-1065-한수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */; };
+		1AC2CF0626667672009502ED /* Baekjoon-9093-단어뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -164,6 +165,7 @@
 		1AC2CEC8265FE291009502ED /* Baekjoon-2231-분해합.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2231-분해합.swift"; sourceTree = "<group>"; };
 		1AC2CEC9265FE291009502ED /* Baekjoon-2798-블랙잭.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2798-블랙잭.swift"; sourceTree = "<group>"; };
 		1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1065-한수.swift"; sourceTree = "<group>"; };
+		1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-9093-단어뒤집기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				1AC2CE71265FE26B009502ED /* Baekjoon-2292-벌집.swift */,
 				1AC2CE72265FE26B009502ED /* Baekjoon-1712-손익분기점.swift */,
 				1AC2CE73265FE26B009502ED /* Baekjoon-10809-알파벳찾기.swift */,
+				1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */,
 			);
 			name = Basic;
 			path = ../../Basic;
@@ -415,6 +418,7 @@
 				1AC2CEF0265FE291009502ED /* Kth.swift in Sources */,
 				1AC2CEF4265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift in Sources */,
 				1AC2CEEE265FE291009502ED /* ReverseRadix3.swift in Sources */,
+				1AC2CF0626667672009502ED /* Baekjoon-9093-단어뒤집기.swift in Sources */,
 				1AC2CED4265FE291009502ED /* Baekjoon-11047-동전0.swift in Sources */,
 				1AC2CED5265FE291009502ED /* Baekjoon-1931-회의실배정.swift in Sources */,
 				1AC2CE74265FE26B009502ED /* Codility-lesson7-Brackets.swift in Sources */,
