@@ -77,6 +77,7 @@
 		1AC2CF01265FE291009502ED /* Baekjoon-1065-한수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */; };
 		1AC2CF0626667672009502ED /* Baekjoon-9093-단어뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */; };
 		1AC2CF0B26667B2A009502ED /* Baekjoon-10828-스택.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */; };
+		1AC2CF0F2667CBD1009502ED /* Baekjoon-9012-괄호.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,6 +169,7 @@
 		1AC2CECA265FE291009502ED /* Baekjoon-1065-한수.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1065-한수.swift"; sourceTree = "<group>"; };
 		1AC2CF0526667672009502ED /* Baekjoon-9093-단어뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-9093-단어뒤집기.swift"; sourceTree = "<group>"; };
 		1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10828-스택.swift"; sourceTree = "<group>"; };
+		1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-9012-괄호.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */,
+				1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */,
 			);
 			name = "Data Structure";
 			path = "../../Data Structure";
@@ -489,6 +492,7 @@
 				1AC2CECE265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift in Sources */,
 				1AC2CEE8265FE291009502ED /* MathTest.swift in Sources */,
 				1AC2CECF265FE291009502ED /* Baekjoon-11058-크리보드.swift in Sources */,
+				1AC2CF0F2667CBD1009502ED /* Baekjoon-9012-괄호.swift in Sources */,
 				1AC2CEEC265FE291009502ED /* MiddleLetter.swift in Sources */,
 				1AC2CEDA265FE291009502ED /* Programmers1-GymSuit.swift in Sources */,
 				1AC2CECB265FE291009502ED /* Baekjoon-1890-점프.swift in Sources */,
