@@ -80,6 +80,7 @@
 		1AC2CF0F2667CBD1009502ED /* Baekjoon-9012-괄호.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */; };
 		1AC2CF12266918D6009502ED /* Baekjoon-1158-요세푸스.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */; };
 		1AC2CF15266DDB38009502ED /* Baekjoon-10845-큐.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF14266DDB38009502ED /* Baekjoon-10845-큐.swift */; };
+		1AC2CF19266DDDA5009502ED /* Baekjoon-10866-덱.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF18266DDDA5009502ED /* Baekjoon-10866-덱.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -174,6 +175,7 @@
 		1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-9012-괄호.swift"; sourceTree = "<group>"; };
 		1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1158-요세푸스.swift"; sourceTree = "<group>"; };
 		1AC2CF14266DDB38009502ED /* Baekjoon-10845-큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10845-큐.swift"; sourceTree = "<group>"; };
+		1AC2CF18266DDDA5009502ED /* Baekjoon-10866-덱.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10866-덱.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +370,7 @@
 			children = (
 				1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */,
 				1AC2CF14266DDB38009502ED /* Baekjoon-10845-큐.swift */,
+				1AC2CF18266DDDA5009502ED /* Baekjoon-10866-덱.swift */,
 				1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */,
 				1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */,
 			);
@@ -462,6 +465,7 @@
 				1AC2CE7C265FE26B009502ED /* Codility-lesson7-Fish.swift in Sources */,
 				1AC2CEE7265FE291009502ED /* Printer.swift in Sources */,
 				1AC2CEF6265FE291009502ED /* Baekjoon-2178-미로찾기.swift in Sources */,
+				1AC2CF19266DDDA5009502ED /* Baekjoon-10866-덱.swift in Sources */,
 				1AC2CED8265FE291009502ED /* Baekjoon-11399-ATM.swift in Sources */,
 				1AC2CED9265FE291009502ED /* Programmers2-RemoveNumbers.swift in Sources */,
 				1AC2CEEB265FE291009502ED /* Year2016.swift in Sources */,
