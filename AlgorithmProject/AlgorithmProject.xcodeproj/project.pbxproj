@@ -81,6 +81,7 @@
 		1AC2CF12266918D6009502ED /* Baekjoon-1158-요세푸스.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */; };
 		1AC2CF15266DDB38009502ED /* Baekjoon-10845-큐.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF14266DDB38009502ED /* Baekjoon-10845-큐.swift */; };
 		1AC2CF19266DDDA5009502ED /* Baekjoon-10866-덱.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF18266DDDA5009502ED /* Baekjoon-10866-덱.swift */; };
+		1AC2CF2F266FB5A8009502ED /* Programmers2-다리를지나는트럭.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF2E266FB5A8009502ED /* Programmers2-다리를지나는트럭.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,6 +177,7 @@
 		1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1158-요세푸스.swift"; sourceTree = "<group>"; };
 		1AC2CF14266DDB38009502ED /* Baekjoon-10845-큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10845-큐.swift"; sourceTree = "<group>"; };
 		1AC2CF18266DDDA5009502ED /* Baekjoon-10866-덱.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-10866-덱.swift"; sourceTree = "<group>"; };
+		1AC2CF2E266FB5A8009502ED /* Programmers2-다리를지나는트럭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Programmers2-다리를지나는트럭.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +375,7 @@
 				1AC2CF18266DDDA5009502ED /* Baekjoon-10866-덱.swift */,
 				1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */,
 				1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */,
+				1AC2CF2E266FB5A8009502ED /* Programmers2-다리를지나는트럭.swift */,
 			);
 			name = "Data Structure";
 			path = "../../Data Structure";
@@ -444,6 +447,7 @@
 				1AC2CEEE265FE291009502ED /* ReverseRadix3.swift in Sources */,
 				1AC2CF0626667672009502ED /* Baekjoon-9093-단어뒤집기.swift in Sources */,
 				1AC2CED4265FE291009502ED /* Baekjoon-11047-동전0.swift in Sources */,
+				1AC2CF2F266FB5A8009502ED /* Programmers2-다리를지나는트럭.swift in Sources */,
 				1AC2CED5265FE291009502ED /* Baekjoon-1931-회의실배정.swift in Sources */,
 				1AC2CE74265FE26B009502ED /* Codility-lesson7-Brackets.swift in Sources */,
 				1AC2CF15266DDB38009502ED /* Baekjoon-10845-큐.swift in Sources */,
