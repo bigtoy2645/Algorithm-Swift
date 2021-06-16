@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A59461D267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */; };
 		1AA71AA6265D481900D370EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA71AA5265D481900D370EE /* main.swift */; };
 		1AC2CE74265FE26B009502ED /* Codility-lesson7-Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE67265FE26B009502ED /* Codility-lesson7-Brackets.swift */; };
 		1AC2CE75265FE26B009502ED /* Baekjoon-2675-문자열반복.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CE68265FE26B009502ED /* Baekjoon-2675-문자열반복.swift */; };
@@ -100,6 +101,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1966-프린터큐.swift"; sourceTree = "<group>"; };
 		1AA71AA2265D481900D370EE /* AlgorithmProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA71AA5265D481900D370EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1AA71AAF265D485700D370EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 				1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */,
 				1AC2CF2E266FB5A8009502ED /* Programmers2-다리를지나는트럭.swift */,
 				1AC2CF5226779E38009502ED /* Baekjoon-11279-최대힙.swift */,
+				1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */,
 			);
 			name = "Data Structure";
 			path = "../../Data Structure";
@@ -518,6 +521,7 @@
 				1AA71AA6265D481900D370EE /* main.swift in Sources */,
 				1AC2CED1265FE291009502ED /* Baekjoon-13305-주유소.swift in Sources */,
 				1AC2CECE265FE291009502ED /* Codility-lesson17-NumberSolitaire.swift in Sources */,
+				1A59461D267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift in Sources */,
 				1AC2CEE8265FE291009502ED /* MathTest.swift in Sources */,
 				1AC2CECF265FE291009502ED /* Baekjoon-11058-크리보드.swift in Sources */,
 				1AC2CF0F2667CBD1009502ED /* Baekjoon-9012-괄호.swift in Sources */,
