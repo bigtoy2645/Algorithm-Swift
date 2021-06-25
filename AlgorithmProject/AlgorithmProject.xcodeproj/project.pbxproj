@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0D1B8B26849840006249BD /* Baekjoon-32730-두수의합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1B8A26849840006249BD /* Baekjoon-32730-두수의합.swift */; };
 		1A59461D267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */; };
 		1A5946692680ADF1004EC0FE /* Baekjoon-2003-수들의합2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5946682680ADF1004EC0FE /* Baekjoon-2003-수들의합2.swift */; };
 		1AA71AA6265D481900D370EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA71AA5265D481900D370EE /* main.swift */; };
@@ -102,6 +103,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A0D1B8A26849840006249BD /* Baekjoon-32730-두수의합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-32730-두수의합.swift"; sourceTree = "<group>"; };
 		1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1966-프린터큐.swift"; sourceTree = "<group>"; };
 		1A5946682680ADF1004EC0FE /* Baekjoon-2003-수들의합2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2003-수들의합2.swift"; sourceTree = "<group>"; };
 		1AA71AA2265D481900D370EE /* AlgorithmProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				1A5946682680ADF1004EC0FE /* Baekjoon-2003-수들의합2.swift */,
+				1A0D1B8A26849840006249BD /* Baekjoon-32730-두수의합.swift */,
 			);
 			name = "Two Pointer";
 			path = "../../Two Pointer";
@@ -482,6 +485,7 @@
 				1AC2CEE9265FE291009502ED /* AddTwoInt.swift in Sources */,
 				1AC2CED6265FE291009502ED /* Baekjoon-2839-설탕배달.swift in Sources */,
 				1AC2CF5326779E38009502ED /* Baekjoon-11279-최대힙.swift in Sources */,
+				1A0D1B8B26849840006249BD /* Baekjoon-32730-두수의합.swift in Sources */,
 				1AC2CF01265FE291009502ED /* Baekjoon-1065-한수.swift in Sources */,
 				1AC2CEEF265FE291009502ED /* FindPrimeNumber.swift in Sources */,
 				1AC2CF00265FE291009502ED /* Baekjoon-2798-블랙잭.swift in Sources */,
