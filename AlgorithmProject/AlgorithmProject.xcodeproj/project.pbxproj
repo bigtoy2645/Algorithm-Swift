@@ -89,6 +89,7 @@
 		1AC2CF3226709F83009502ED /* Programmers3-여행경로.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF3126709F83009502ED /* Programmers3-여행경로.swift */; };
 		1AC2CF352670C2B1009502ED /* Programmers2-소수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF342670C2B1009502ED /* Programmers2-소수찾기.swift */; };
 		1AC2CF5326779E38009502ED /* Baekjoon-11279-최대힙.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2CF5226779E38009502ED /* Baekjoon-11279-최대힙.swift */; };
+		1ACB7E922688278F009538EA /* Baekjoon-1806-부분합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB7E912688278F009538EA /* Baekjoon-1806-부분합.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -192,6 +193,7 @@
 		1AC2CF3126709F83009502ED /* Programmers3-여행경로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Programmers3-여행경로.swift"; sourceTree = "<group>"; };
 		1AC2CF342670C2B1009502ED /* Programmers2-소수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Programmers2-소수찾기.swift"; sourceTree = "<group>"; };
 		1AC2CF5226779E38009502ED /* Baekjoon-11279-최대힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-11279-최대힙.swift"; sourceTree = "<group>"; };
+		1ACB7E912688278F009538EA /* Baekjoon-1806-부분합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1806-부분합.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 				1A5946682680ADF1004EC0FE /* Baekjoon-2003-수들의합2.swift */,
 				1A0D1B8A26849840006249BD /* Baekjoon-32730-두수의합.swift */,
 				1A0D1B8D2685E27E006249BD /* Baekjoon-2470-두용액.swift */,
+				1ACB7E912688278F009538EA /* Baekjoon-1806-부분합.swift */,
 			);
 			name = "Two Pointer";
 			path = "../../Two Pointer";
@@ -472,6 +475,7 @@
 				1AC2CE7F265FE26B009502ED /* Baekjoon-1712-손익분기점.swift in Sources */,
 				1AC2CE75265FE26B009502ED /* Baekjoon-2675-문자열반복.swift in Sources */,
 				1AC2CEFB265FE291009502ED /* Baekjoon-2606-바이러스.swift in Sources */,
+				1ACB7E922688278F009538EA /* Baekjoon-1806-부분합.swift in Sources */,
 				1AC2CEF0265FE291009502ED /* Kth.swift in Sources */,
 				1AC2CEF4265FE291009502ED /* Baekjoon-1697-숨바꼭질.swift in Sources */,
 				1AC2CEEE265FE291009502ED /* ReverseRadix3.swift in Sources */,
