@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A089ABF2A81001300FD0F3D /* Baekjoon-18258-큐2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A089ABE2A81001300FD0F3D /* Baekjoon-18258-큐2.swift */; };
+		1A089AC12A81199100FD0F3D /* Baekjoon-1874-스택수열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A089AC02A81199100FD0F3D /* Baekjoon-1874-스택수열.swift */; };
+		1A089AC32A8119DF00FD0F3D /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A089AC22A8119DF00FD0F3D /* FileIO.swift */; };
 		1A0D1B8B26849840006249BD /* Baekjoon-32730-두수의합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1B8A26849840006249BD /* Baekjoon-32730-두수의합.swift */; };
 		1A0D1B8E2685E27E006249BD /* Baekjoon-2470-두용액.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1B8D2685E27E006249BD /* Baekjoon-2470-두용액.swift */; };
 		1A59461D267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */; };
@@ -106,6 +108,9 @@
 
 /* Begin PBXFileReference section */
 		1A089ABE2A81001300FD0F3D /* Baekjoon-18258-큐2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-18258-큐2.swift"; sourceTree = "<group>"; };
+		1A089AC02A81199100FD0F3D /* Baekjoon-1874-스택수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1874-스택수열.swift"; sourceTree = "<group>"; };
+		1A089AC22A8119DF00FD0F3D /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
+		1A089AC42A8119F000FD0F3D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A0D1B8A26849840006249BD /* Baekjoon-32730-두수의합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-32730-두수의합.swift"; sourceTree = "<group>"; };
 		1A0D1B8D2685E27E006249BD /* Baekjoon-2470-두용액.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-2470-두용액.swift"; sourceTree = "<group>"; };
 		1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Baekjoon-1966-프린터큐.swift"; sourceTree = "<group>"; };
@@ -239,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				1AA71AA5265D481900D370EE /* main.swift */,
+				1A089AC22A8119DF00FD0F3D /* FileIO.swift */,
 				1AC2CE66265FE26B009502ED /* Basic */,
 				1AC2CEC3265FE291009502ED /* Brute Force */,
 				1AC2CE8B265FE291009502ED /* Greedy */,
@@ -400,7 +406,9 @@
 		1AC2CF0926667B16009502ED /* Data Structure */ = {
 			isa = PBXGroup;
 			children = (
+				1A089AC42A8119F000FD0F3D /* README.md */,
 				1AC2CF11266918D6009502ED /* Baekjoon-1158-요세푸스.swift */,
+				1A089AC02A81199100FD0F3D /* Baekjoon-1874-스택수열.swift */,
 				1A59461C267A3DB3004EC0FE /* Baekjoon-1966-프린터큐.swift */,
 				1AC2CF0E2667CBD1009502ED /* Baekjoon-9012-괄호.swift */,
 				1AC2CF0A26667B2A009502ED /* Baekjoon-10828-스택.swift */,
@@ -501,6 +509,7 @@
 				1AC2CEDE265FE291009502ED /* MaxValue.swift in Sources */,
 				1AC2CF0B26667B2A009502ED /* Baekjoon-10828-스택.swift in Sources */,
 				1AC2CEDD265FE291009502ED /* DiskController.swift in Sources */,
+				1A089AC12A81199100FD0F3D /* Baekjoon-1874-스택수열.swift in Sources */,
 				1AC2CED0265FE291009502ED /* Baekjoon-15989-123+4.swift in Sources */,
 				1AC2CE79265FE26B009502ED /* Baekjoon-10870-피보나치수5.swift in Sources */,
 				1A0D1B8E2685E27E006249BD /* Baekjoon-2470-두용액.swift in Sources */,
@@ -509,6 +518,7 @@
 				1AC2CEE7265FE291009502ED /* Printer.swift in Sources */,
 				1AC2CEF6265FE291009502ED /* Baekjoon-2178-미로찾기.swift in Sources */,
 				1AC2CF19266DDDA5009502ED /* Baekjoon-10866-덱.swift in Sources */,
+				1A089AC32A8119DF00FD0F3D /* FileIO.swift in Sources */,
 				1AC2CED8265FE291009502ED /* Baekjoon-11399-ATM.swift in Sources */,
 				1AC2CED9265FE291009502ED /* Programmers2-RemoveNumbers.swift in Sources */,
 				1AC2CEEB265FE291009502ED /* Year2016.swift in Sources */,
