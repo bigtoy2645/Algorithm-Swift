@@ -29,7 +29,7 @@
 import Foundation
 //import Glibc
 
-public func solution(_ N : Int) -> Int {
+public func lesson1_BinaryGap_solution(_ N : Int) -> Int {
     // write your code in Swift 4.2.1 (Linux)
     let n16 = Array(String(N, radix: 2))
     var gap = 0, result = 0

@@ -56,7 +56,7 @@
 import Foundation
 //import Glibc
 
-public func solution(_ A : inout [Int], _ B : inout [Int]) -> Int {
+public func lesson7_Fish_solution(_ A : inout [Int], _ B : inout [Int]) -> Int {
     
     var queue = [Int]()
     var result = 0
