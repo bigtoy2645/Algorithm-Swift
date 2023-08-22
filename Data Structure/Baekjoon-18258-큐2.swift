@@ -65,7 +65,7 @@ func queue2() {
     var answer = ""
     
     for _ in 1...N {
-        let commands = fileIO.readString()
+        let commands = fileIO.readStringInt()
         
         switch commands {
         // push
